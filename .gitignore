@@ -1,0 +1,6 @@
+from agent.pipeline import KaggricultureAgent
+
+_agent = KaggricultureAgent()
+
+def agent(obs):
+    return _agent(obs)
